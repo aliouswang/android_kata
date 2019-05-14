@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.example.aliouswang.android_kata.touch.FirstViewGroup
+        android:id="@+id/first_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.aliouswang.android_kata.touch.SecondViewGroup
+            android:id="@+id/second_view_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.aliouswang.android_kata.touch.FirstView
+                android:id="@+id/first_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.example.aliouswang.android_kata.touch.FirstView>
+
+        </com.example.aliouswang.android_kata.touch.SecondViewGroup>
+
+    </com.example.aliouswang.android_kata.touch.FirstViewGroup>
+
+
+</FrameLayout>
